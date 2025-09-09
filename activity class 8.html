@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        .container{background: orangered;height:1000px;width:1200px;display: grid;grid-template-columns: 1fr 1fr 1fr;padding: 10px;}
+        .box{background:blue;}
+        #box1{background: purple;grid-column: 1/4;}
+        #box2{background: green;grid-row:2/4}
+        #box5{background: black;grid-row: 2/4;grid-column: 3/4}
+        #box3{margin-left: 10px;margin-right: 10px;margin-bottom: 10px;}
+        #box4{margin-left: 10px;margin-right: 10px;}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="box" id="box1"></div>
+<div class="box" id="box2"></div>
+<div class="box" id="box3"></div>
+<div class="box" id="box4"></div>
+<div class="box" id="box5"></div>
+    </div>
+</body>
+</html>
